@@ -2,9 +2,9 @@
   import {
     render
   } from 'react-dom'
-  import {
-    Pet
-  } from './Pet';
+  import
+  Pet
+  from './Pet';
   const App = () => {
     return React.createElement(
       "div", {
