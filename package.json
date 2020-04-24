@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@frontendmasters/pet": "^1.0.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
