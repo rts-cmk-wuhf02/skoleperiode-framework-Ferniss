@@ -17,6 +17,7 @@ const SearchParams = () => {
       setBreeds(breedStrings);
     }, console.error)
   }, [animal, setBreed, setBreeds]);
+  
   return (
     <div className="search-params">
       <form>
