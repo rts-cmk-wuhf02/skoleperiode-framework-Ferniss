@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "format": "prettier \"src/**/*.{js,html}\" --write"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-react-hooks": "^3.0.0",
@@ -24,5 +26,16 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 ChromeAndroid versions",
+    "last 2 Firefox versions",
+    "last 2 FirefoxAndroid versions",
+    "last 2 Safari versions",
+    "last 2 iOS versions",
+    "last 2 Edge versions",
+    "last 2 Opera versions",
+    "last 2 operaMobile versions"
+  ]
 }
